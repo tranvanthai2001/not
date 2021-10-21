@@ -1,0 +1,44 @@
+
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+}
+*{
+    box-sizing: inherit;
+    background-color:#F4F4F4 ;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.8rem ;
+    box-sizing: border-box;
+}
+.gird{
+    width: 2278px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    background-color:#F4F4F4 ; 
+    
+}
+.header__nav1{
+    display: flex; 
+}
+.header__nav1--ad{
+    display:inline-flex;
+    list-style: none;
+}
+.header__nav1--res{
+    padding-left: 10px;
+}
+.header__nav1--login:hover{
+    cursor: pointer;
+    color: lawngreen;
+}
+.header__nav1--res:hover{
+    cursor: pointer;
+    color: lawngreen;
+}
